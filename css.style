@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(121, 156, 231));
+}
+
+
+header {
+    text-align: center;
+    background-color: #d0fff9;
+    padding: 20px;
+ 
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #7b768f;
+    margin-top: 10px;
+}
+
+
+nav.cafe {
+    text-align: center;
+    background-color: #7abfff;
+    padding: 10px;
+}
+
+nav.cafe a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+a {
+   text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(55, 104, 248);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 0 0 royalblue;
+    background-image: linear-gradient(to right,rgb(62, 107, 206),rgb(255, 255, 255));
+}
+
+a:focus {
+    box-shadow: inset 0px 5px 0px 2px royalblue;
+    color:black;
+    top:10px;
+     position: relative;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    
+}
+
+
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    color: #0ffff3;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+main h3 {
+    width: 100%;
+    text-align: center;
+    color: #008b84;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #a2ddff;
+    padding: 15px;
+    font-size: 20px;
+    color: #333;
+    
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+    vertical-align: middle;
+}
+
